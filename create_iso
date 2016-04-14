@@ -6,7 +6,7 @@ IFS=$'\n\t'
 CUR_TIME=`date +%FT%TZ`
 CUSTOM_RPMS=./RPMS
 DVD_LAYOUT=/data/centos-7-iso-layout
-DVD_TITLE='CentOS-7-Joyent'
+DVD_TITLE='AgentWeirdo OS'
 ISO=CentOS-7-x86_64-Minimal-1511.iso
 ISO_DIR=/data/fetched-iso
 ISO_FILENAME=./centos-7-joyent.iso
@@ -149,7 +149,7 @@ function create_newiso() {
 
 function modify_os-release() {
   echo "Modifying OS release"
-  cp ./os-release $DVD_LAYOUT/etc/
+  cp --force ./os-release $DVD_LAYOUT/etc/
 
 }
 # main line
