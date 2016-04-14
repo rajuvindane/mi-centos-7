@@ -149,7 +149,7 @@ function create_newiso() {
 
 function modify_os-release() {
   echo "Modifying OS release"
-  cp ./os-release $DVD_LAYOUT/etc/os-release
+  cp ./os-release $DVD_LAYOUT/etc/
 
 }
 # main line
