@@ -1,0 +1,6 @@
+PRETTY_NAME="AgentWeirdo OS"
+NAME="AgentWeirdo GNU/Linux"
+ID=centos
+HOME_URL="https://www.centos.org/"
+SUPPORT_URL="https://www.centos.org/forums"
+BUG_REPORT_URL="https://bugs.centos.org/"
